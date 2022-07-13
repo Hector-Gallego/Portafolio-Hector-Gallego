@@ -1,0 +1,81 @@
+.academic{
+    margin-top: 10rem;
+    background-color: #EAF2FD;
+    padding-top: 5rem;
+}
+.academic__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.academic__titulo{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    font-weight: bolder;
+
+}
+.academic_list-card {
+    width: 15%;
+    height: 450px;
+    min-width: 200px;
+
+    padding: 2rem;
+    background-color: white;
+    margin-bottom: 5rem;
+    border-radius: 3em;
+}
+
+.academic__list-paragraph{
+    font-size: 2rem;
+    border-top: solid #aeb3be 1px;
+}
+.academic__list-imagen{
+    height: 50%;
+
+    background: url("../../assets/img/unicartagena.png") no-repeat center;
+    background-size: contain;
+
+}
+.academic__list-description{
+    height: auto;
+    text-align: center;
+    padding: 2rem;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.academic__list-imagen-unicartagena{
+    height: 50%;
+    background: url("../../assets/img/unicartagena.png") no-repeat center;
+    background-size: contain;
+
+}
+.academic__list-imagen-one{
+    height: 50%;
+
+    background: url("../../assets/img/one.png") no-repeat center;
+    background-size: contain;
+
+}
+
+.academic__list-imagen-misiontic{
+    height: 50%;
+
+    background: url("../../assets/img/misiontic.png") no-repeat center;
+    background-size: contain;
+
+}
+.academic__list-imagen-alura{
+    height: 50%;
+
+    background: url("../../assets/img/alura.png") no-repeat center;
+    background-size: contain;
+
+}
+

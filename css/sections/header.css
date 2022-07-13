@@ -1,0 +1,85 @@
+
+.header{
+
+}
+.header__menu{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    flex-wrap: wrap;
+
+}
+
+.header__title{
+    padding: 1rem;
+    font-size: 4rem;
+
+}
+
+.header__navigation ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+
+}
+
+.header__links-menu{
+    padding: 1rem;
+    font-size: 2.2rem;
+
+
+}
+.header__links-menu a:hover{
+
+    border-bottom: solid #3f3f3f 1px;
+
+
+}
+
+
+/* reglas section inf */
+.header__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header__info-title{
+    font-size: 5rem;
+    line-height: 7rem;
+    font-weight: bolder;
+
+}
+.header__info-list{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.header__info-description{
+    font-size: 2.5rem;
+    margin-top: 4rem;
+
+
+}
+.header__links-redes{
+    font-size: 2.5rem;
+    margin-top: 4rem;
+    padding: 0 3rem 0 0;
+}
+
+.header__info_image img{
+
+    background: url("/assets/img/hombre.png") no-repeat;
+    height: 410px;
+
+    border-radius: 100%;
+    background-size: contain;
+
+
+
+
+}

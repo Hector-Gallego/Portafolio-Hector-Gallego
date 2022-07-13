@@ -1,0 +1,37 @@
+.skills{
+    margin-top: 10rem;
+}
+
+.skills__list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.skills_list-card{
+    width: 10%;
+    min-width: 100px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+
+}
+.skills__card {
+
+    background-color: teal;
+    width: auto;
+
+}
+
+.skills__titulo {
+    font-size: 3rem;
+    text-align: center;
+    margin: 5rem 0;
+    font-weight: bolder;
+}
+.skills__list-paragraph{
+    font-size: 2rem;
+}
+

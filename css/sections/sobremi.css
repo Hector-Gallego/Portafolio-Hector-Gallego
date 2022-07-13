@@ -1,0 +1,23 @@
+.sobremi{
+display: flex;
+    background-color: #EAF2FD;
+    margin-top: 10rem;
+
+}
+.sobremi__description{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+.sobremi__description-title{
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+.sobremi__description-paragraph{
+    font-size: 2rem;
+}
+.sobremi__logo{
+    padding: 5rem 0;
+}
+

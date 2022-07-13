@@ -1,0 +1,98 @@
+@media screen and (max-width: 900px) {
+    .container{
+        padding: 0 2rem;
+    }
+    .header__navigation {
+        display: none;
+    }
+    .header__info{
+        flex-direction: column-reverse;
+    }
+    .header__info_image img{
+        width: 50%;
+        height: 50%;
+        object-fit: cover;
+    }
+
+    .header__title{
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+    .header__info-description{
+        font-size: 2rem;
+    }
+    .header__info-list{
+        justify-content: center;
+        align-items: center;
+    }
+    .header__links-redes{
+        font-size: 2rem;
+        padding: 0 2rem 0 0;
+        margin-top: 2rem;
+    }
+
+    .header__info-title{
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .sobremi{
+        flex-direction: column-reverse;
+    }
+    .sobremi__logo img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .academic_list-card{
+        width: 100%;
+    }
+
+    .experiencia__card{
+        flex-direction: column;
+    }
+    .experiencia__titulo{
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
+    .experiencia__card-imagen-1{
+        height: 200px;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .experiencia__card-contenido{
+        width: 100%;
+    }
+
+    .experiencia__card-inv{
+        flex-direction: column;
+    }
+    .experiencia__card-imagen-2{
+        height: 200px;
+        width: 100%;
+        margin-top: 3rem;
+        min-width: 0;
+    }
+
+    .contacto__logo{
+        display: none;
+    }
+    .contacto__boton-enviar{
+        width: 50%;
+    }
+    .academic_list-card{
+        width: 50%;
+        padding: 2rem;
+        height: 250px;
+    }
+    .academic__list-description{
+        padding: 2rem 0 0;
+    }
+    .academic__list-paragraph{
+
+        font-size: 1.5rem;
+    }
+
+
+}
